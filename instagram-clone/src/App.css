@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.app_header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  /* Maintains aspect ratio after resizing page */
+  object-fit: contain;
+}
